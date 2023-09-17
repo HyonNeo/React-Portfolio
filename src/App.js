@@ -1,5 +1,6 @@
 import React from "react"
 import About from './components/about';
+import Skills from './components/skills'
 import './App.css';
 
 export default function App() {
@@ -51,6 +52,7 @@ export default function App() {
 
       <div id="main">
         <About />
+        <Skills /> 
        
       </div>
 
