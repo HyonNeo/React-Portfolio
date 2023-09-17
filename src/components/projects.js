@@ -2,7 +2,6 @@ import React from 'react';
 
 import bookmark from '../assets/images/bookmark.png'
 import cocktailbeer from '../assets/images/cocktail-beer.png'
-import style from './styles/proyects.css'
 
 
 export default function Projects() {
@@ -11,16 +10,16 @@ export default function Projects() {
         <header className="major">
           <h2>Projects</h2>
         </header>
-        <ul className={style.features}>
+        <ul >
           <li>
-            <div className={style.image}>
+            <div >
               <img src={bookmark} alt="bookmark" style={{width:"85%"}}/>
             </div>
             <h3>Bookmark</h3>
             <p>
               Its a application where you can make a review about a book that you readed, after adding that review you are able to edit or remove it
             </p>
-            <footer className={style.footerImage} >
+            <footer  >
               <ul>
                 <li>
                   <a 
@@ -44,14 +43,14 @@ export default function Projects() {
             </footer>
           </li>
           <li>
-            <div className={style.image}>
+            <div >
               <img src={cocktailbeer} alt="cocktailbeer" style={{width:"85%"}} />
             </div>
             <h3>cocktail & beer</h3>
             <p>
               Its a application where you can try luck and see what alcohol drink you get from a randomizer(Remember that if your minor of 21 you cant use this app).
             </p>
-            <footer className={style.footerImage}>
+            <footer >
               <ul>
                 <li>
                   <a

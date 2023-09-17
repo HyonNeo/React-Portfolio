@@ -2,6 +2,7 @@ import React from "react"
 import About from './components/about';
 import Skills from './components/skills'
 import Projects from "./components/projects";
+import Contact from './components/contact'
 import './App.css';
 
 export default function App() {
@@ -55,6 +56,7 @@ export default function App() {
         <About />
         <Skills /> 
         <Projects/>
+        <Contact/>
        
       </div>
 
