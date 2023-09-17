@@ -1,6 +1,7 @@
 import React from "react"
 import About from './components/about';
 import Skills from './components/skills'
+import Projects from "./components/projects";
 import './App.css';
 
 export default function App() {
@@ -53,6 +54,7 @@ export default function App() {
       <div id="main">
         <About />
         <Skills /> 
+        <Projects/>
        
       </div>
 
