@@ -1,9 +1,11 @@
 import React from "react"
 import About from './components/about';
-import Skills from './components/skills'
+import Skills from './components/skills';
+import Resume from './components/resume'
 import Projects from "./components/projects";
-import Contact from './components/contact'
-import './App.css';
+import Contact from './components/contact';
+import Footer from './components/footer';
+import './App.css';;
 
 export default function App() {
   const [scroll, setScroll] = React.useState(false);
@@ -56,10 +58,12 @@ export default function App() {
         <About />
         <Skills /> 
         <Projects/>
+        <Resume/>
         <Contact/>
+        
        
       </div>
-
+      <Footer/>
       
     </div>
   );

@@ -2,6 +2,7 @@ import React from 'react';
 
 import bookmark from '../assets/images/bookmark.png'
 import cocktailbeer from '../assets/images/cocktail-beer.png'
+import portfolio from '../assets/images/portfolio.png'
 
 
 export default function Projects() {
@@ -66,6 +67,29 @@ export default function Projects() {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/marksantander/Cocktail_Beer"
+                  >
+                    Github
+                  </a>
+                </li>
+              </ul>
+            </footer>
+          </li>
+          <li>
+            <div >
+              <img src={portfolio} alt="portfolio" style={{width:"85%"}}/>
+            </div>
+            <h3>Portfolio</h3>
+            <p>
+              Its my first portfolio with react
+            </p>
+            <footer  >
+              <ul>
+                <li>
+                  <a
+                  style={{textAlign:"center"}}
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/HyonNeo/React-Portfolio"
                   >
                     Github
                   </a>
