@@ -3,6 +3,7 @@ import React from 'react';
 import bookmark from '../assets/images/bookmark.png'
 import cocktailbeer from '../assets/images/cocktail-beer.png'
 import portfolio from '../assets/images/portfolio.png'
+import petmatch from '../assets/images/First try.png'
 
 
 export default function Projects() {
@@ -94,6 +95,37 @@ export default function Projects() {
                     Github
                   </a>
                 </li>
+                <li>
+            <div >
+              <img src={petmatch} alt="petmatch" style={{width:"85%"}}/>
+            </div>
+            <h3>petmatch</h3>
+            <p>
+              Its a application where you are going to be able to look for a pet to adopt
+            </p>
+            <footer  >
+              <ul>
+                <li>
+                  <a 
+                  style={{padding:"10px"}}
+                    target="_blank"
+                    rel="noreferrer"
+                    href=""
+                  >
+                    Live Demo
+                  </a>
+                  <a
+                  style={{padding:"10px"}}
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/Nettooffnook/pet-tinder-repo"
+                  >
+                    Github
+                  </a>
+                </li>
+              </ul>
+            </footer>
+          </li>
               </ul>
             </footer>
           </li>
