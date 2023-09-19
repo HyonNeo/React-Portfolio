@@ -6,11 +6,13 @@
   * [Usage](#usage)
   * [Questions](#questions)
   * [Credits](#credits)
+    
   ## Description
   In this page your going to see my first portfolio created with react
   
   ## Usage
-  Open the page:
+  Open the page
+  ![image](./src/assets/images/portfolio.png)
   
   ## Questions
   Have questions about this project?  
